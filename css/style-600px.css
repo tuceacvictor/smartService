@@ -12,3 +12,16 @@
     color: #fff;
     text-align: center;
 }
+
+
+/* Contacts */
+
+.header__information-contacts {
+    max-width: 350px;
+    min-height: 250px;
+    background: #fff;
+    margin: 75px auto;
+}
+
+
+/* Contacts */

@@ -3,8 +3,16 @@
     color: #3d7ac4
 }
 
+.primaryBackground {
+    background: #3d7ac4;
+}
+
 .secondaryColor {
     color: #bd4242;
+}
+
+.centered {
+    text-align: center;
 }
 
 p,
@@ -47,5 +55,51 @@ a {
 .header__content {
     padding-top: 150px;
     color: #fff;
-    text-align: center;
 }
+
+
+/* Contacts */
+
+.header__information-contacts {
+    max-width: 350px;
+    min-height: 250px;
+    background: #fff;
+    margin-top: 85px;
+    padding: 15px;
+}
+
+.information-contacts__heading {
+    font-size: 1.5em;
+}
+
+.information-contacts__contacts {
+    margin-bottom: 20px;
+}
+
+.information-contacts__schedule {
+    margin-bottom: 20px;
+}
+
+.offices {
+    padding: 30px 0 !important;
+}
+
+.offices__name {
+    font-size: 1.5rem;
+}
+
+.offices__name-container {
+    margin-top: 10px;
+}
+
+.offices__map {
+    padding: 0;
+    height: 300px;
+}
+
+.offices__photo-img {
+    padding: 10px;
+}
+
+
+/* Contacts */
