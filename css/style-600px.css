@@ -14,6 +14,32 @@
 }
 
 
+/* Feed back form */
+
+.feedback-form__wrapper {
+    padding: 30px 0;
+}
+
+.feedback-form-firstName {
+    padding: 5px;
+    margin: 5px
+}
+
+.feedback-form-tel {
+    padding: 5px;
+    margin: 5px;
+}
+
+.feedback-form-problem {
+    max-width: 380px;
+    min-width: 190px;
+    height: 75px;
+}
+
+
+/* Feed back form */
+
+
 /* Contacts */
 
 .header__information-contacts {
