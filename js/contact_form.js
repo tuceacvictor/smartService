@@ -13,7 +13,6 @@ $(function() {
             var problem = $("textarea#problem").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
-            console.log(first_name, tel, problem)
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
@@ -41,8 +40,9 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
-                    // Fail message
-                    $('#success').html("<div class='alert alert-danger'>");
+                    console.log(error)
+                        // Fail message
+                    $('#success').html("<div class='alert alert-danger form-success'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-danger').append($("<strong>").text("Приносим свои извинения, сервер временно не отвечает"));

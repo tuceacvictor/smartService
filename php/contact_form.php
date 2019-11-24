@@ -1,10 +1,9 @@
 <?php
 // Check for empty fields
-if(empty($_POST['first_name'])      ||
+
+if(empty($_POST['first_name'])||
    empty($_POST['tel']) ||
-   empty($_POST['problem'])     ||
-   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
-   {
+   empty($_POST['problem'])){
    echo "No arguments Provided!";
    return false;
    }
@@ -12,7 +11,6 @@ if(empty($_POST['first_name'])      ||
 $first_name = strip_tags(htmlspecialchars($_POST['first_name']));
 $tel = strip_tags(htmlspecialchars($_POST['last_name']));
 $problem = strip_tags(htmlspecialchars($_POST['problem']));
-   
 // Create the email and send the message
 $to = 'tuceak16@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Обратная форма Smart-Service:  $name";
