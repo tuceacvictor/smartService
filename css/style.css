@@ -81,7 +81,11 @@ a {
 }
 
 .offices {
-    padding: 30px 0 !important;
+    padding-top: 30px;
+}
+
+.offices-new {
+    padding-top: 0;
 }
 
 .offices__name {
@@ -97,9 +101,37 @@ a {
     height: 300px;
 }
 
+.maps__yandex-map {
+    height: 100%;
+    padding-bottom: 40px;
+}
+
 .offices__photo-img {
     padding: 10px;
 }
 
 
 /* Contacts */
+
+
+/* Footer */
+
+.footer {
+    padding-top: 10px;
+}
+
+.footer__social-links {
+    margin: 10px 0;
+}
+
+.footer__links {
+    margin: 10px 0;
+}
+
+.social-links__icon {
+    font-size: 1.5em;
+    margin: 0 5px;
+}
+
+
+/* Footer */
