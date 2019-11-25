@@ -13,3 +13,37 @@
 
 
 /* Contacts */
+
+
+/* About */
+
+.primaryLine {
+    display: none;
+}
+
+.about-info__heading {
+    text-align: center;
+}
+
+.about-info__leading-wrapper {
+    text-align: center;
+}
+
+.about-info__button-wrapper {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.happy-users__row {
+    padding-top: 10px
+}
+
+.happy-users__icon-wrapper {
+    height: 70px;
+    width: 260px;
+    margin: 20px auto;
+}
+
+
+/* About */

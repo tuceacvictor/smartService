@@ -51,3 +51,31 @@
 
 
 /* Contacts */
+
+
+
+
+/* About */
+
+.primaryLine {
+    display: none;
+}
+.about-info__heading{
+    text-align: center;
+}
+.about-info__leading-wrapper {
+    text-align: center;
+}
+
+.about-info__button-wrapper{
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.team {
+    padding: 50px 0;
+}
+
+
+/* About */

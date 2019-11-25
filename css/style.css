@@ -114,6 +114,71 @@ a {
 /* Contacts */
 
 
+/* About */
+
+.about-info {
+    padding: 50px 0;
+}
+
+.about-info__wrapper {
+    margin-top: 40px;
+}
+
+.primaryLine {
+    display: block;
+    width: 50px;
+    margin-top: 9px;
+    height: 7px;
+    border-radius: 5px;
+}
+
+.about-info__leading-wrapper {
+    padding-left: 30px;
+}
+
+.about-info__button-wrapper {
+    margin-top: 30px
+}
+
+.reviews {
+    height: 400px;
+}
+
+.happy-users {
+    height: 400px;
+}
+
+.team {
+    padding: 50px 0;
+}
+
+.advantages {
+    padding: 50px 0;
+}
+
+.advantages__list {
+    list-style: none;
+    color: white
+}
+
+.happy-users__row {
+    padding-top: 120px
+}
+
+.happy-users__icon-wrapper {
+    height: 70px;
+    width: 260px;
+    margin: 0 auto;
+}
+
+.happy-users__icon {
+    font-size: 1.8rem;
+}
+
+
+/* About */
+
+
 /* Feed back form */
 
 .feedback-form__wrapper {
