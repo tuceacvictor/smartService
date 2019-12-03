@@ -29,6 +29,9 @@
                         <a class="nav-link" href="./pricing.html">Цены</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="./shop.html">Товары / Акссесуары</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="./about.html">О Нас</a>
                     </li>
                     <li class="nav-item active">
@@ -225,20 +228,16 @@
                     <div class="offices__information-images centered">
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-6 offices__photo-img pop">
-                                <img class="img-fluid" max-width="200px" src="./images/aviamotornaya41/1.jpg"
-                                    alt="Авиамоторная 41 сервис центр вход" />
+                                <img class="img-fluid" max-width="200px" src="./images/aviamotornaya41/1.jpg" alt="Авиамоторная 41 сервис центр вход" />
                             </div>
                             <div class="col-md-6 col-sm-6 col-6 offices__photo-img pop">
-                                <img class="img-fluid" max-width="200px" src="./images/aviamotornaya41/2.jpg"
-                                    alt="Авиамоторная 41 сервис центр" />
+                                <img class="img-fluid" max-width="200px" src="./images/aviamotornaya41/2.jpg" alt="Авиамоторная 41 сервис центр" />
                             </div>
                             <div class="col-md-6 col-sm-6 col-6 offices__photo-img pop">
-                                <img class="img-fluid" max-width="200px" src="images/aviamotornaya41/3.jpg"
-                                    alt="Авиамоторная 41 сервис центр" />
+                                <img class="img-fluid" max-width="200px" src="images/aviamotornaya41/3.jpg" alt="Авиамоторная 41 сервис центр" />
                             </div>
                             <div class="col-md-6 col-sm-6 col-6 offices__photo-img pop">
-                                <img class="img-fluid" max-width="200px" src="./images/aviamotornaya41/4.jpg"
-                                    alt="Авиамоторная 41 сервис центр" />
+                                <img class="img-fluid" max-width="200px" src="./images/aviamotornaya41/4.jpg" alt="Авиамоторная 41 сервис центр" />
                             </div>
                         </div>
                     </div>
@@ -258,17 +257,23 @@
     </section>
 
 
-    <section class="feedback-form">
+    <section id="contact" class="feedback-form">
         <div class="container">
+            <div class="row">
+                <div class="col-md-12 centered">
+                    <h1 class="primaryColor">Свяжитесь с нашим специалистом</h1>
+                </div>
+            </div>
             <div class="row feedback-form__wrapper">
                 <div class="col-md-12">
                     <form id="contactForm" name="contactForm">
-                        <div class="form-group centered">
-                            <input class="feedback-form-firstName" type="text" name="first_name" id="first_name" placeholder="Ваше Имя" required>
-                            <input class="feedback-form-tel" type="text" name="tel" id="tel" placeholder="Ваш номер телефона" required>
+                        <div class="form-group">
+                            <input class="form-control" name="first_name" id="first_name" type="text" placeholder="Ваше Имя*" required="required" data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
                         </div>
-                        <div class="form-group centered">
-                            <textarea class="feedback-form-problem" name="problem" id="problem" placeholder="Опишите проблему"></textarea>
+                        <div class="form-group">
+                            <input class="form-control" id="tel" name="tel" type="tel" placeholder="Номер телефона*" required="required" data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group centered">
                             <button type="submit" class="btn primaryBackground text-white" id="sendMessageButton">Отправить</button>
@@ -280,6 +285,7 @@
             </div>
         </div>
     </section>
+
 
 
     <section class="footer primaryBackground">

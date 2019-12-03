@@ -2,8 +2,7 @@
 // Check for empty fields
 
 if(empty($_POST['first_name'])||
-   empty($_POST['tel']) ||
-   empty($_POST['problem'])){
+   empty($_POST['tel'])){
    echo "No arguments Provided!";
    return false;
    }

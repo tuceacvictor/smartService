@@ -14,6 +14,21 @@
 }
 
 
+/* index */
+
+
+
+.services__item-container {
+    width: 300px;
+}
+
+.item-container__rounded-wrapper {
+    left: 39%;
+}
+
+/* index */
+
+
 /* Feed back form */
 
 .feedback-form__wrapper {

@@ -4,6 +4,34 @@
 }
 
 
+/* index */
+
+.services__item{
+    margin-bottom: 20px;
+}
+
+.about-intro__row {
+    padding-top: 30px
+}
+
+.about-intro__text-wrapper {
+    padding-top: 10px
+}
+
+.about-btn {
+    margin-bottom: 20px;
+}
+
+.our-services__item {
+    text-align: center;
+}
+
+
+
+
+
+/* index */
+
 /* Contacts */
 
 .maps__yandex-map {
