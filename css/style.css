@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap');
 .primaryColor {
-    color: #000000
+    color: #383838
 }
 
 .primaryBackground {
@@ -59,8 +59,7 @@ h2 {
 }
 
 .header__layer {
-    background-color: rgba(201, 202, 204, 0.3);
-    position: absolute;
+    background-color: rgba(161, 161, 161, 0.5);
     top: 0;
     left: 0;
     width: 100%;
@@ -93,6 +92,7 @@ h2 {
 }
 
 .services__item-lead{
+    font-size: 1.2rem;
     padding-top: 20px
 }
 
@@ -138,7 +138,8 @@ h2 {
 }
 
 .about-intro__lead {
-    padding-top: 20px
+    padding-top: 20px;
+    font-size: 1.2rem
 }
 
 .our-services {
@@ -234,7 +235,7 @@ h2 {
 }
 
 .offices-new {
-    padding-top: 0;
+    padding: 50px 50px;
 }
 
 .offices__name {
@@ -290,7 +291,16 @@ h2 {
 }
 
 .reviews {
-    height: 400px;
+    margin: 30px 0 50px 0;
+}
+
+
+.reviews__review-lead {
+    max-width: 230px
+}
+
+.reviews__heading {
+    padding-bottom: 20px
 }
 
 .happy-users {

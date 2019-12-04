@@ -6,15 +6,27 @@ $(document).on('ready', function() {
       centerMode: true,
       slidesToScroll: 2,
       autoplay: true,
-      autoplaySpeed: 2000,
-      reponsive: [
+      autoplaySpeed: 3000,
+      responsive: [
         {
-          breakpoint: 500,
+          breakpoint: 768,
           settings: {
+            arrows: false,
+            autoplay: true,
             slidesToShow: 1,
-            slidesToScroll: 2,
+            slidesToScroll: 1,
+        }
+      },
+        {
+          breakpoint: 600,
+          settings: {
+            arrows: false,
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
         }
       }
       ]
     });
   });
+
