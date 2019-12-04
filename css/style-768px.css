@@ -64,6 +64,7 @@ h2 {
 
 .about-info__leading-wrapper {
     text-align: center;
+    padding: 0
 }
 
 .about-info__button-wrapper {
@@ -77,10 +78,12 @@ h2 {
 }
 
 .happy-users__icon-wrapper {
-    height: 70px;
+    height: auto;
     width: 260px;
     margin: 20px auto;
+    padding: 50px 0 50px 0;
 }
+
 
 
 /* About */
