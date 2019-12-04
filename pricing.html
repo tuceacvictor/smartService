@@ -53,30 +53,30 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-7">
-                            <div class="header__information-contacts">
-                                <div class="information-contacts__contacts">
-                                    <h1 class="information-contacts__heading primaryColor">
-                                        Контакты
-                                    </h1>
-                                    <div>
-                                        <span class="primaryColor"> <b> Телефон: </b></span>
-                                        <a class="primaryColor" href="tel:89250011610">8 (925) 001-16-10 <i class="fas fa-phone secondaryColor"> </i></a>
-                                    </div>
-                                    <div>
-                                        <span class="primaryColor"> <b> Почта: </b></span>
-                                        <a class="primaryColor" href="mailto:smart-service@yandex.ru">smart-service@yandex.ru <i class="fas fa-envelope secondaryColor"> </i></a>
-                                    </div>
+                        <div class="header__information-contacts">
+                            <div class="information-contacts__contacts">
+                                <h1 class="information-contacts__heading primaryColor">
+                                    Контакты
+                                </h1>
+                                <div>
+                                    <span class="primaryColor"> <b> Телефон: </b></span>
+                                    <a class="primaryColor" href="tel:89250011610">8 (925) 001-16-10 <i class="fas fa-phone secondaryColor"> </i></a>
                                 </div>
-                                <div class="information-contacts__schedule">
-                                    <h1 class="information-contacts__heading primaryColor">
-                                        График работы <i class="fas fa-clock secondaryColor"> </i>
-                                    </h1>
-                                    <div>
-                                        <span class="primaryColor">с <span class="secondaryColor">   10:00</span> до <span class="secondaryColor"> 22:00 </span> без выходных</span>
-                                    </div>
+                                <div>
+                                    <span class="primaryColor"> <b> Почта: </b></span>
+                                    <a class="primaryColor" href="mailto:smart-service@yandex.ru">smart-service@yandex.ru <i class="fas fa-envelope secondaryColor"> </i></a>
+                                </div>
+                            </div>
+                            <div class="information-contacts__schedule">
+                                <h1 class="information-contacts__heading primaryColor">
+                                    График работы <i class="fas fa-clock secondaryColor"> </i>
+                                </h1>
+                                <div>
+                                    <span class="primaryColor">с <span class="secondaryColor">   10:00</span> до <span class="secondaryColor"> 22:00 </span> без выходных</span>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,22 +140,22 @@
 
 
     <div class="brands">
-            <div class="container regular slider">
-                <div>
-                    <img src="./images/brands/apple.png" class="img-fluid image-slick" width="100" alt="Ремонт Apple Smart-Service">
-                </div>
-                <!-- <div>
+        <div class="container regular slider">
+            <div>
+                <img src="./images/brands/apple.png" class="img-fluid image-slick" width="100" alt="Ремонт Apple Smart-Service">
+            </div>
+            <!-- <div>
                     <img src="./images/brands/samsung.png" class="img-fluid image-slick" width="100">
                 </div> -->
-                <div>
-                    <img src="./images/brands/mi.png" class="img-fluid image-slick" width="100" alt="Ремонт Xioami Smart-Service">
-                </div>
-                <div>
-                    <img src="./images/brands/huawei.png" class="img-fluid image-slick" width="100" alt="Ремонт Huawei Smart-Service">
-                </div>
+            <div>
+                <img src="./images/brands/mi.png" class="img-fluid image-slick" width="100" alt="Ремонт Xioami Smart-Service">
+            </div>
+            <div>
+                <img src="./images/brands/huawei.png" class="img-fluid image-slick" width="100" alt="Ремонт Huawei Smart-Service">
             </div>
         </div>
-    
+    </div>
+
 
     <section class="footer primaryBackground">
         <div class="container">
@@ -201,8 +201,10 @@
                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-12 centered">
-                                <h1>Prices Samsung</h1>
+                            <div class="col-12">
+                                <div id="samsung-prices-table"></div>
+                                
+
                             </div>
                         </div>
                     </div>
@@ -255,6 +257,12 @@
     <script src="./js/slick.min.js"></script>
     <script src="./js/slick_custom.js"></script>
     <script src="./js/images-view.js"></script>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <!-- Load our React component. -->
+    <script src="./js/samsung-prices-table.js"></script>
 </body>
 
 </html>
