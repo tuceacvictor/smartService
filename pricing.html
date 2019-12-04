@@ -31,8 +31,8 @@
                         <a class="nav-link" href="./pricing.html">Цены на ремонт</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="./shop.html">Товары / Акссесуары</a>
-                        </li>
+                        <a class="nav-link" href="./shop.html">Товары / Акссесуары</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">О Нас</a>
                     </li>
@@ -44,43 +44,43 @@
         </div>
     </nav>
     <section class="header">
-            <div class="header__layer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-4">
-                            <div class="header__content">
-                                <h1>Цены</h1>
-                            </div>
+        <div class="header__layer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-4">
+                        <div class="header__content">
+                            <h1>Цены</h1>
                         </div>
-                        <div class="col-md-6 col-sm-8">
-                            <div class="header__information-contacts">
-                                <div class="information-contacts__contacts">
-                                    <h1 class="information-contacts__heading primaryColor">
-                                        Контакты
-                                    </h1>
-                                    <div>
-                                        <span class="primaryColor"> <b> Телефон: </b></span>
-                                        <a class="primaryColor" href="tel:89250011610">8 (925) 001-16-10 <i class="fas fa-phone"> </i></a>
-                                    </div>
-                                    <div>
-                                        <span class="primaryColor"> <b> Почта: </b></span>
-                                        <a class="primaryColor" href="mailto:smart-service@yandex.ru">smart-service@yandex.ru <i class="fas fa-envelope"> </i></a>
-                                    </div>
+                    </div>
+                    <div class="col-md-6 col-sm-8">
+                        <div class="header__information-contacts">
+                            <div class="information-contacts__contacts">
+                                <h1 class="information-contacts__heading primaryColor">
+                                    Контакты
+                                </h1>
+                                <div>
+                                    <span class="primaryColor"> <b> Телефон: </b></span>
+                                    <a class="primaryColor" href="tel:89250011610">8 (925) 001-16-10 <i class="fas fa-phone"> </i></a>
                                 </div>
-                                <div class="information-contacts__schedule">
-                                    <h1 class="information-contacts__heading primaryColor">
-                                        График работы <i class="fas fa-clock"> </i>
-                                    </h1>
-                                    <div>
-                                        <span class="primaryColor">с 10:00 до 22:00 без выходных</span>
-                                    </div>
+                                <div>
+                                    <span class="primaryColor"> <b> Почта: </b></span>
+                                    <a class="primaryColor" href="mailto:smart-service@yandex.ru">smart-service@yandex.ru <i class="fas fa-envelope"> </i></a>
+                                </div>
+                            </div>
+                            <div class="information-contacts__schedule">
+                                <h1 class="information-contacts__heading primaryColor">
+                                    График работы <i class="fas fa-clock"> </i>
+                                </h1>
+                                <div>
+                                    <span class="primaryColor">с 10:00 до 22:00 без выходных</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
 
@@ -93,15 +93,15 @@
             </div>
             <div class="row price-row">
                 <div class="col-md-6">
-                    <div class="btn primaryBackground primaryColor price-button"> SAMSUNG</div>
+                    <div class="btn primaryBackground primaryColor price-button samsung-price-btn"> SAMSUNG</div>
                 </div>
                 <div class="col-md-6">
-                    <div class="btn primaryBackground primaryColor price-button"> APPLE </div>
+                    <div class="btn primaryBackground primaryColor price-button apple-price-btn"> APPLE </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="btn primaryBackground primaryColor price-button">XIAOMI, HUAWEI, MEIZU, LENOVO</div>
+                    <div class="btn primaryBackground primaryColor price-button other-price-btn">XIAOMI, HUAWEI, MEIZU, LENOVO</div>
                     <!-- modal windows onclick -->
                 </div>
             </div>
@@ -192,6 +192,60 @@
         </div>
     </section>
 
+
+    <div class="modal fade" id="samsung-prices-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 centered">
+                                <h1>Prices Samsung</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="apple-prices-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 centered">
+                                <h1>Prices Apple</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="other-prices-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 centered">
+                                <h1>Other Prices</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/jqBootstrapValidation.js"></script>
@@ -199,6 +253,7 @@
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/slick.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="./js/slick_custom.js"></script>
+    <script src="./js/images-view.js"></script>
 </body>
 
 </html>
