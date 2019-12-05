@@ -8,19 +8,22 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var LikeButton = function (_React$Component) {
-  _inherits(LikeButton, _React$Component);
+var Prices = function (_React$Component) {
+  _inherits(Prices, _React$Component);
 
-  function LikeButton(props) {
-    _classCallCheck(this, LikeButton);
+  function Prices(props) {
+    _classCallCheck(this, Prices);
 
-    var _this = _possibleConstructorReturn(this, (LikeButton.__proto__ || Object.getPrototypeOf(LikeButton)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (Prices.__proto__ || Object.getPrototypeOf(Prices)).call(this, props));
 
     _this.state = {};
     return _this;
   }
 
-  _createClass(LikeButton, [{
+  _createClass(Prices, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
     key: "render",
     value: function render() {
 
@@ -109,8 +112,8 @@ var LikeButton = function (_React$Component) {
     }
   }]);
 
-  return LikeButton;
+  return Prices;
 }(React.Component);
 
 var domContainer = document.querySelector('#samsung-prices-table');
-ReactDOM.render(React.createElement(LikeButton, null), domContainer);
+ReactDOM.render(React.createElement(Prices, null), domContainer);

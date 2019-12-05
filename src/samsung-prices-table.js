@@ -1,12 +1,19 @@
 'use strict';
-class LikeButton extends React.Component {
+class Prices extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      
-    
+
+
     };
   }
+
+
+
+  componentDidMount() {
+   
+  }
+
 
   render() {
 
@@ -44,4 +51,4 @@ class LikeButton extends React.Component {
 }
 
 const domContainer = document.querySelector('#samsung-prices-table');
-ReactDOM.render(<LikeButton/>, domContainer);
+ReactDOM.render(<Prices />, domContainer);
