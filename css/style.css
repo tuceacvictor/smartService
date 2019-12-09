@@ -367,6 +367,47 @@ h2 {
 /* Prices */
 
 
+
+
+/*Shop*/
+
+.shop-items {
+    margin: 50px 0 50px 0;
+}
+
+.shop-item {
+    display: flex;
+    -webkit-box-shadow: 4px 6px 17px -5px rgba(130,130,130,0.5);
+    -moz-box-shadow: 4px 6px 17px -5px rgba(130,130,130,0.5);
+    box-shadow: 4px 6px 17px -5px rgba(130,130,130,0.5);
+    padding: 10px;
+    margin: 20px
+}
+
+.shop-item:hover {
+    -webkit-box-shadow: 4px 6px 17px -5px rgba(130,130,130,1);
+    -moz-box-shadow: 4px 6px 17px -5px rgba(130,130,130,1);
+    box-shadow: 4px 6px 17px -5px rgba(130,130,130,1);
+}
+
+.shop-item__info {
+    flex-grow: 1;
+}
+
+/*Shop*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Feed back form */
 
 .feedback-form {

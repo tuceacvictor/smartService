@@ -16,64 +16,77 @@ var ShopItems = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (ShopItems.__proto__ || Object.getPrototypeOf(ShopItems)).call(this, props));
 
-        _this.state = {};
+        _this.componentDidMount = function () {
+            fetch('./js/shop/phones.json', {}).then(function (res) {
+                return res.json();
+            }).then(function (data) {
+                _this.setState({ phones: data });
+            });
+        };
+
+        _this.state = {
+            phones: []
+        };
         return _this;
     }
 
     _createClass(ShopItems, [{
-        key: "render",
+        key: 'render',
         value: function render() {
+            var phones = this.state.phones;
 
-            return React.createElement(
-                "div",
-                { className: "shop-item" },
-                React.createElement(
-                    "div",
-                    { className: "shop-item__info" },
+            return phones.map(function (phone, index) {
+                return React.createElement(
+                    'div',
+                    { key: index, className: 'shop-item' },
                     React.createElement(
-                        "div",
-                        { className: "shop-item__name" },
+                        'div',
+                        { className: 'shop-item__info' },
                         React.createElement(
-                            "h1",
-                            null,
-                            "IPhone 11 Pro"
+                            'div',
+                            { className: 'shop-item__name' },
+                            React.createElement(
+                                'h1',
+                                null,
+                                phone.label
+                            )
+                        ),
+                        React.createElement(
+                            'div',
+                            { className: 'shop-item-description' },
+                            React.createElement(
+                                'h5',
+                                null,
+                                phone.description
+                            )
+                        ),
+                        React.createElement(
+                            'div',
+                            { className: 'shop-item__price' },
+                            React.createElement(
+                                'p',
+                                null,
+                                phone.price
+                            )
                         )
                     ),
                     React.createElement(
-                        "div",
-                        { className: "shop-item-description" },
+                        'div',
+                        { className: 'shop-item__images' },
                         React.createElement(
-                            "h5",
-                            null,
-                            "\u0442\u0435\u043C\u043D\u043E-\u0437\u0435\u043B\u0435\u043D\u044B\u0439/\u0437\u043E\u043B\u043E\u0442\u043E\u0439/\u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044B\u0439/\xAB\u0441\u0435\u0440\u044B\u0439 \u043A\u043E\u0441\u043C\u043E\u0441\xBB"
-                        )
-                    ),
-                    React.createElement(
-                        "div",
-                        { className: "shop-item__price" },
-                        React.createElement(
-                            "p",
-                            null,
-                            "iPhone 11 Pro 64GB (\u0441 1 sim) \u2014 76 000 \u20BD"
+                            'div',
+                            { className: 'shop-item__image' },
+                            React.createElement('img', { src: phone.imageUrl, className: 'img-fluid', width: '450',
+                                alt: 'iphone 11 smart service' })
                         )
                     )
-                ),
-                React.createElement(
-                    "div",
-                    { className: "shop-item__images" },
-                    React.createElement(
-                        "div",
-                        { className: "shop-item__image" },
-                        React.createElement("img", { src: "./images/shop/iphone11.jpg", className: "img-fluid", width: "450",
-                            alt: "iphone 11 smart service" })
-                    )
-                )
-            );
+                );
+            });
         }
     }]);
 
     return ShopItems;
 }(React.Component);
 
-var domContainer = document.querySelector('#samsung-prices-table');
+var domContainer = document.querySelector('#shop-items');
 ReactDOM.render(React.createElement(ShopItems, null), domContainer);

@@ -9,15 +9,17 @@ class Prices extends React.Component {
     readFile = (file) => {
         fetch(file, {
             headers: {
-              contentType: "application/vnd.ms-excel; charset=utf-8",
+                contentType: "application/vnd.ms-excel; charset=utf-8",
             },
-        }).then(response => response.arrayBuffer()).then(resp => console.log(resp))
+        }).then(response =>
+            response.arrayBuffer())
+          .then(resp => console.log(resp))
         // .then(response => response.arrayBuffer())
         // .then(ab => {
         //   // do stuff with `ArrayBuffer` representation of file
         // })
         // .catch(err => console.log(err));
-    }
+    };
 
     componentDidMount() {
         let data = '';

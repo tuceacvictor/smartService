@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c26a8d1b-d192-4e1c-9f1d-e71e991f6c4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/receipts.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SmartService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SmartService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/shop/iphone11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/shop-items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/shop/phones.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shop-items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/samsung-prices-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/samsung-prices-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/samsung-prices-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/samsung-prices-table.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,6 +72,7 @@
       <workItem from="1574361526582" duration="40000" />
       <workItem from="1574598490780" duration="18000" />
       <workItem from="1575572099043" duration="7262000" />
+      <workItem from="1575917606880" duration="7041000" />
     </task>
     <servers />
   </component>

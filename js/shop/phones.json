@@ -1,32 +1,26 @@
-var phones = [
+[
     {
-        label: 'IPhone 11 Pro',
-        description: 'темно-зеленый/золотой/серебристый/«серый космос»',
-        price: '76 000 ₽',
-        imageUrl: './images/shop/iphone11.jpg'
+        "label": "IPhone 11 Pro",
+        "description": "темно-зеленый/золотой/серебристый/«серый космос»",
+        "price": "76 000 ₽",
+        "imageUrl": "./images/shop/iphone11.jpg"
     },
     {
-        label: 'IPhone 11 Pro',
-        description: 'темно-зеленый/золотой/серебристый/«серый космос»',
-        price: '76 000 ₽',
-        imageUrl: './images/shop/iphone11.jpg'
+        "label": "IPhone X Pro",
+        "description": "темно-зеленый/золотой/серебристый/«серый космос»",
+        "price": "76 000 ₽",
+        "imageUrl": "./images/shop/iphone11.jpg"
     },
     {
-        label: 'IPhone 11 Pro',
-        description: 'темно-зеленый/золотой/серебристый/«серый космос»',
-        price: '76 000 ₽',
-        imageUrl: './images/shop/iphone11.jpg'
-    }, {
-        label: 'IPhone 11 Pro',
-        description: 'темно-зеленый/золотой/серебристый/«серый космос»',
-        price: '76 000 ₽',
-        imageUrl: './images/shop/iphone11.jpg'
+        "label": "Samsung  Galaxy Note 10",
+        "description": "темно-зеленый/золотой/серебристый/«серый космос»",
+        "price": "76 000 ₽",
+        "imageUrl": "./images/shop/iphone11.jpg"
     },
     {
-        label: 'IPhone 11 Pro',
-        description: 'темно-зеленый/золотой/серебристый/«серый космос»',
-        price: '76 000 ₽',
-        imageUrl: './images/shop/iphone11.jpg'
-    },
-
-];
+        "label": "IPhone 11 Pro",
+        "description": "темно-зеленый/золотой/серебристый/«серый космос»",
+        "price": "76 000 ₽",
+        "imageUrl": "./images/shop/iphone11.jpg"
+    }
+]
