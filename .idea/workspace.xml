@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c26a8d1b-d192-4e1c-9f1d-e71e991f6c4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/brands/meizu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/4web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/ico1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo/logo_black.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/balashiha/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/balashiha/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/balashiha/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/balashiha/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/balashiha/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/balashiha/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brands/apple.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/brands/apple.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brands/huawei.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/brands/huawei.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brands/mi.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/brands/mi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brands/samsung.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/brands/samsung.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
@@ -78,6 +80,7 @@
       <workItem from="1575572099043" duration="7262000" />
       <workItem from="1575917606880" duration="7041000" />
       <workItem from="1576008647252" duration="4063000" />
+      <workItem from="1576694411401" duration="1875000" />
     </task>
     <servers />
   </component>

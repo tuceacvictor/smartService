@@ -477,20 +477,30 @@ section#contact .form-group {
 /* Footer */
 
 .footer {
-    padding-top: 10px;
+    padding: 50px 0 10px 0;
+}
+.footer__links-wrapper{
+    padding: 20px 0;
 }
 
 .footer__social-links {
-    margin: 10px 0;
+    padding: 20px 0;
 }
 
 .footer__links {
     margin: 10px 0;
 }
+.footer__link:hover{
+    text-decoration: none;
+}
 
 .social-links__icon {
     font-size: 1.5em;
     margin: 0 5px;
+}
+
+.footer__copyright-wrapper {
+    padding-top: 10px
 }
 
 
